@@ -1,3 +1,4 @@
+
 {
     "version": "2.0.0",
     "tasks": [
@@ -7,9 +8,9 @@
             "command": "g++",
             "args": [
                 "-g",
+                "${relativeFile}",
                 "-o",
-                "Helloworld",
-                "Helloworld.c"
+                "${workspaceFolder}/out/${fileBasenameNoExtension}.exe"
             ],
             "group": {
                 "kind": "build",
