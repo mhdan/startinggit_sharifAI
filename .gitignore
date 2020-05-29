@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/c,windows
-# Edit at https://www.gitignore.io/?templates=c,windows
+# Created by https://www.gitignore.io/api/c,linux,windows,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=c,linux,windows,visualstudiocode
 
 ### C ###
 # Prerequisites
@@ -56,6 +56,32 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -82,4 +108,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/c,windows
+# End of https://www.gitignore.io/api/c,linux,windows,visualstudiocode
