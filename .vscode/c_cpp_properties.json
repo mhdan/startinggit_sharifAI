@@ -1,23 +1,18 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "Linux",
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:/MinGW/bin/g++.exe",
+            "compilerPath": "/usr/bin/g++",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "gcc-x64",
-            "compilerArgs": [
-                "-g",
-                "${relativeFile}",
-                "-o",
-                "${workspaceFolder}/out/${fileBasenameNoExtension}.exe"
-            ]
+            "intelliSenseMode": "gcc-x64"
         }
     ],
     "version": 4
 }
+
